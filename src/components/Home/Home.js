@@ -14,6 +14,11 @@ function Home() {
           <Row>
             {/* Left Side - Intro */}
             <Col md={7} className="home-header">
+              <div className="console-bar">
+                <span className="dot"></span>
+                SYSTEM STATUS: OPERATIONAL
+              </div>
+
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -25,16 +30,17 @@ function Home() {
                 I'M <strong className="main-name">ALVINE CHUNGO</strong>
               </h1>
 
-              <p style={{ fontSize: "1.2em", marginTop: "20px" }}>
-                I’m an <strong>IT Support Specialist</strong> from{" "}
-                <strong>Nairobi, Kenya</strong>, dedicated to keeping systems
-                running smoothly, securely, and efficiently.  
-                With expertise in{" "}
+              <p style={{ fontSize: "1.15em", marginTop: "20px" }}>
+                I'm an <strong>IT Support Specialist</strong> at{" "}
+                <strong>Coca-Cola Beverages Africa</strong> in{" "}
+                <strong>Nairobi, Kenya</strong>, keeping enterprise systems
+                running smoothly, securely, and efficiently. With expertise
+                in{" "}
                 <strong>
                   technical support, network troubleshooting, and cybersecurity
                 </strong>
-                , I help individuals and organizations get the best out of
-                their technology.
+                , I help people and organizations get the best out of their
+                technology.
               </p>
 
               <div style={{ padding: "30px 0", textAlign: "left" }}>
