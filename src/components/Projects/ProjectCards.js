@@ -7,6 +7,16 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
+      {(props.ticketId || props.priority) && (
+        <div className="ticket-strip">
+          <span className="ticket-id">{props.ticketId}</span>
+          {props.priority && (
+            <span className={`priority-badge priority-${props.priority.toLowerCase()}`}>
+              {props.priority} · RESOLVED
+            </span>
+          )}
+        </div>
+      )}
       {/* Only render image if imgPath exists */}
       {props.imgPath && (
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
