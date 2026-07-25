@@ -6,11 +6,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "IT Support Specialist",
-          "Cybersecurity Enthusiast",
+          "IT Support Specialist @ Coca-Cola Beverages Africa",
+          "ServiceNow ITSM & Endpoint Support",
           "Network Troubleshooter",
-          "System Optimizer",
-          "Helpdesk Solutions Builder",
+          "Cybersecurity Enthusiast",
+          "Freelance IT Support",
           "Tech Problem Solver"
         ],
         autoStart: true,
