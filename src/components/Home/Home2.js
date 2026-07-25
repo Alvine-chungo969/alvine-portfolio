@@ -12,41 +12,44 @@ function Home2() {
         <Row>
           {/* About Me Text */}
           <Col md={8} className="home-about-description">
+            <div className="eyebrow">TICKET-01 · ABOUT</div>
             <h1 style={{ fontSize: "2.6em" }}>
               ABOUT <span className="purple"> ME</span>
             </h1>
             <p className="home-about-body">
-              I am an <strong className="purple">IT Support Specialist</strong>{" "}
-              currently pursuing a{" "}
-              <strong>BSc in Information Technology</strong> at{" "}
-              <strong>Zetech University</strong>, graduating in{" "}
-              <strong>November 2025</strong>.
+              I'm an <strong className="purple">IT Support Specialist</strong>{" "}
+              at <strong>Coca-Cola Beverages Africa</strong> in Nairobi,
+              supporting enterprise systems across{" "}
+              <strong>ServiceNow ITSM, Active Directory, Microsoft
+              Azure/Intune, Microsoft 365, SAP, and D365</strong>, alongside
+              endpoint support and networking. I also take on freelance IT
+              support work outside my full-time role.
               <br />
               <br />
-              I bring experience from both freelance work and professional
-              attachment — including my time at the{" "}
-              <strong>Ministry of Interior</strong> — where I supported system
-              maintenance, software configuration, and network troubleshooting.
+              Earlier on, I contributed to system maintenance, software
+              configuration, and network troubleshooting during a government
+              attachment at the{" "}
+              <strong>State Department for Correctional Services (SDCS)</strong>,
+              Ministry of Interior — including early development of a Koha
+              Library Management System.
               <br />
               <br />
               My key skills include:
               <i>
                 <b className="purple">
                   {" "}
-                  technical support, system optimization, IT infrastructure
-                  management, network troubleshooting, and cybersecurity.
+                  technical support, enterprise system administration, network
+                  troubleshooting, and cybersecurity.
                 </b>
               </i>
               <br />
               <br />
-              I am certified in:
+              I hold a <strong>BSc in Information Technology</strong> from{" "}
+              <strong>Zetech University</strong> and I'm certified in:
               <i>
-                <b className="purple">
-                  {" "}
-                  IBM Cybersecurity Analysis, Google IT Support, and Cisco
-                  Networking Basics (in progress).
-                </b>
+                <b className="purple"> IBM Cybersecurity Analyst and Google IT Support</b>
               </i>
+              (Coursera).
               <br />
               <br />
               I enjoy working on hands-on projects such as inventory management
@@ -67,6 +70,59 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
+            <p>
+              Let’s <span className="purple">connect</span> and collaborate!
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Alvine-chungo969"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:alvinechungo166@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/alvine-chungo-622b38356/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/254795476835"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Home2;
             <p>
               Let’s <span className="purple">connect</span> and collaborate!
             </p>
