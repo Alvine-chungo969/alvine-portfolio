@@ -21,6 +21,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
+            <div className="eyebrow">TICKET-02 · PROFILE</div>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Who <strong className="purple">I Am</strong>
             </h1>
@@ -35,11 +36,13 @@ function About() {
           </Col>
         </Row>
 
+        <div className="eyebrow">TICKET-03 · SERVICE STATUS</div>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset</strong>
         </h1>
         <Techstack />
 
+        <div className="eyebrow">TICKET-04 · TOOLING</div>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I Use
         </h1>
