@@ -877,8 +877,3 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-}
