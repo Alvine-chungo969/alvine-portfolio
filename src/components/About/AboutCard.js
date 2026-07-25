@@ -8,18 +8,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I’m <span className="purple">Alvine Chungo</span> from 
-            <span className="purple"> Nairobi, Kenya</span> — 
-            an <strong>IT Support Specialist</strong> passionate about 
-            <strong> system administration, networking, and cybersecurity</strong>.
+            I'm <span className="purple">Alvine Chungo</span> from
+            <span className="purple"> Nairobi, Kenya</span> —
+            an <strong>IT Support Specialist at Coca-Cola Beverages Africa</strong>,
+            passionate about
+            <strong> enterprise system administration, networking, and cybersecurity</strong>.
             <br />
-            Currently pursuing my <strong>BSc in Information Technology</strong> at Zetech University (Graduating Nov 2025).
+            I hold a <strong>BSc in Information Technology</strong> from
+            Zetech University and also take on freelance IT support work.
             <br />
-            Certified in <strong>IBM Cybersecurity Analysis</strong>, 
-            <strong> Google IT Support</strong>, and <strong>Cisco Networking Basics</strong>.
+            Certified in <strong>IBM Cybersecurity Analyst</strong> and
+            <strong> Google IT Support</strong> (Coursera).
             <br />
             <br />
-            Outside work, I’m driven by curiosity and enjoy:
+            Outside work, I'm driven by curiosity and enjoy:
           </p>
           <ul>
             <li className="about-activity">
